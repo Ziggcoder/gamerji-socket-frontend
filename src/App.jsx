@@ -9,9 +9,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-     <h1>Gamerji-Auction</h1>
-     <div style={{display:'flex',flexDirection:'column',height:'80vh',width:'100vw'}}>
+  <>
+     <div style={{display:'flex',flexDirection:'column',height:'100vh',width:'100vw',
+     padding:"10vh",backgroundColor:"AppWorkspace"}}>
      <Auction />
 
      </div>
