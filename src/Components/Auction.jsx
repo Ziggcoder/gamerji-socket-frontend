@@ -16,8 +16,7 @@ const Auction = (props) => {
   const [username, setUsername] = useState('User' + Math.floor(Math.random() * 1000));  // Generate a random username
 
   useEffect(() => {
-    socket.emit('user', { username },'con63
-    ');
+    socket.emit('user', { username },'con63');
   }, []);
 
   useEffect(() => {
